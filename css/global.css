@@ -8,3 +8,7 @@ select {
 h2 {
   font-size: larger;
 }
+
+h6 {
+  font-size: smaller;
+}

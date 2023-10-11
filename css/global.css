@@ -25,17 +25,18 @@ ul.nav li a:hover {
   background-color: #f69864;
 }
 
-
 /* btn CSS  */
 .btn-primary {
   background-color: #f69864;
   border: none;
 }
-.btn-primary:hover, a.btn-primary:active{
+.btn-primary:hover,
+a.btn-primary:active {
   background-color: #e95761;
   border: none;
 }
-.btn.active, :not(.btn-check)+.btn:active{
+.btn.active,
+:not(.btn-check) + .btn:active {
   background-color: #e95761;
   border: none;
 }

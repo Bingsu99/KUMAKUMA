@@ -1,3 +1,5 @@
+/* colour --> 201d1d(black), 009ddc(blue), f69864(pink), e95761(shrimp) */
+
 p,
 label,
 option,
@@ -10,4 +12,34 @@ h2 {
 }
 h6 {
   font-size: smaller;
+}
+
+ul.nav li a {
+  color: #201d1d;
+}
+ul.nav li a:hover {
+  color: #009ddc;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f69864;
+}
+
+.btn-primary {
+  background-color: #f69864;
+  border: none;
+}
+
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  border: none;
+}
+.card:hover img {
+  scale: 1.2;
 }

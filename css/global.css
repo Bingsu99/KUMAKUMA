@@ -6,6 +6,11 @@ option,
 select {
   font-size: small;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 h2 {
   font-size: larger;
@@ -13,9 +18,12 @@ h2 {
 h6 {
   font-size: smaller;
 }
-body{
-  background-image: url('https://img.freepik.com/premium-photo/white-wood-texture-as-template-with-blank-space_84485-2830.jpg?w=360');
+body {
+  background-image: url("https://img.freepik.com/premium-photo/white-wood-texture-as-template-with-blank-space_84485-2830.jpg?w=360");
   /* background-size: cover; */
+}
+nav {
+  background-color: #009ddc;
 }
 
 /* links CSS */
@@ -30,9 +38,12 @@ ul.nav li a:hover {
 }
 
 /* btn CSS  */
-.btn-primary {
+.btn-primary,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
   background-color: #f69864;
   border: none;
+  box-shadow: none;
 }
 .btn-primary:hover,
 a.btn-primary:active {
@@ -55,6 +66,14 @@ a.btn-primary:active {
 .card {
   border: none;
 }
+.card a {
+  text-decoration: none;
+  color: #201d1d;
+}
+.card a:hover {
+  text-decoration: none;
+  color: #f69864;
+}
 .card:hover img {
-  scale: 1.2;
+  scale: 1.3;
 }

@@ -1,5 +1,5 @@
 /* colour --> 201d1d(black), 009ddc(blue), f69864(pink), e95761(shrimp) */
-
+/* general */
 p,
 label,
 option,
@@ -14,29 +14,39 @@ h6 {
   font-size: smaller;
 }
 
+/* links CSS */
 ul.nav li a {
   color: #201d1d;
 }
 ul.nav li a:hover {
-  color: #009ddc;
+  color: #f69864;
 }
-
 .nav-pills .nav-link.active {
   background-color: #f69864;
 }
 
+
+/* btn CSS  */
 .btn-primary {
   background-color: #f69864;
   border: none;
 }
+.btn-primary:hover, a.btn-primary:active{
+  background-color: #e95761;
+  border: none;
+}
+.btn.active, :not(.btn-check)+.btn:active{
+  background-color: #e95761;
+  border: none;
+}
 
+/* menu CSS */
 .center-cropped {
   object-fit: cover; /* Do not scale the image */
   object-position: center; /* Center the image within the element */
   height: 100%;
   width: 100%;
 }
-
 .card {
   border: none;
 }

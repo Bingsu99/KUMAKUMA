@@ -1,6 +1,6 @@
 /* colour --> 201d1d(black), 009ddc(blue), f69864(pink), e95761(shrimp) */
 /* general */
-p,
+footer p,
 label,
 option,
 select {
@@ -12,6 +12,10 @@ h2 {
 }
 h6 {
   font-size: smaller;
+}
+body{
+  background-image: url('https://img.freepik.com/premium-photo/white-wood-texture-as-template-with-blank-space_84485-2830.jpg?w=360');
+  /* background-size: cover; */
 }
 
 /* links CSS */

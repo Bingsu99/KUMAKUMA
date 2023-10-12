@@ -29,7 +29,7 @@ article{
 }
 
 /* links CSS */
-ul.nav li a {
+ul.nav li a, ul.nav li a:visited {
   color: #201d1d;
 }
 ul.nav li a:hover {

@@ -1,4 +1,3 @@
-/* colour --> 201d1d(black), 009ddc(blue), f69864(shrimp), e95761(salmon) */
 /* general */
 footer p,
 label,
@@ -20,11 +19,8 @@ h6 {
 }
 body {
   background-image: url("https://img.freepik.com/premium-photo/white-wood-texture-as-template-with-blank-space_84485-2830.jpg?w=360");
-  /* background-size: cover; */
 }
 article{
-  /* background-color: white; */
-  /* background-image: linear-gradient(180deg, #ffff 0%, #ffff 35%, #009ddc 100%); */
   background-image: linear-gradient(0deg, rgba(255,0,0,0), #ffffff);
 }
 
@@ -60,8 +56,8 @@ a.btn-primary:active {
 
 /* menu CSS */
 .center-cropped {
-  object-fit: cover; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
+  object-fit: cover; 
+  object-position: center; 
   height: 100%;
   width: 100%;
 }
